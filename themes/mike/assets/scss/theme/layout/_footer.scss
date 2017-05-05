@@ -1,0 +1,16 @@
+//--------------------------------------------------------------
+// FOOTER
+//--------------------------------------------------------------
+
+.footer {
+	background: $color-black;
+	position: relative;
+	width: 100%;
+
+	p {
+		color: $color-white;
+		font-size: rem(14);
+		margin: 0;
+		text-align: center;
+	} // p
+} // .footer

@@ -1,0 +1,28 @@
+{
+  "name": "MIKE",
+  "version": "1",
+  "private": true,
+  "description": "A Custom Theme",
+  "license": "MIT",
+  "author": "Mike Edmunds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xBLADEx/custom.git"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-preset-es2015": "^6.24.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-critical": "^0.2.2",
+    "grunt-postcss": "^0.8.0",
+    "grunt-pot": "^0.3.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

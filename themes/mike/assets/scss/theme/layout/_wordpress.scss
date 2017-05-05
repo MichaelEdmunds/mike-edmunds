@@ -1,0 +1,48 @@
+//--------------------------------------------------------------
+// WORDPRESS
+//--------------------------------------------------------------
+
+.alignleft {
+	float: left;
+	margin: rem(0 20 20 0);
+} // .alignleft
+
+.alignright {
+	float: right;
+	margin: rem(0 0 20 20);
+} // .alignright
+
+.aligncenter {
+	display: block;
+	margin: rem(20) auto;
+	text-align: center;
+} // .aligncenter
+
+
+//-----------------------------------------
+// Search
+//-----------------------------------------
+.form-search {
+	float: right;
+	margin: rem(20 0);
+	width: rem(260);
+} // .form-search
+
+.form-search-box {
+	float: right;
+	margin: 0;
+	width: auto;
+} // .form-search-box
+
+.form-search-button {
+	background: $color-black;
+	border: 0;
+	color: $color-white;
+	float: right;
+	padding: rem(9 20);
+
+	&:hover {
+		background: $color-white;
+		color: $color-black;
+	} // &:hover
+} // .form-search-button

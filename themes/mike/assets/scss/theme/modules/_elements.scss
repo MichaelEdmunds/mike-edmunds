@@ -1,0 +1,105 @@
+//--------------------------------------------------------------
+// ELEMENTS
+//--------------------------------------------------------------
+
+html {
+	font-size: 100%;
+} // html
+
+body {
+	background: $color-white;
+} // body
+
+body,
+div,
+ul,
+ol,
+li,
+p,
+span,
+a {
+	color: $color-black;
+	font-family: $font-halant;
+	font-size: rem(20);
+} // body, div, ul, ol, li, p, span, a
+
+p {
+	margin: rem(0 0 5 0);
+} // p
+
+ul {
+	margin: rem(0 0 30 30);
+	padding: 0;
+} // ul
+
+
+//-----------------------------------------
+// Headings
+//-----------------------------------------
+h1,
+.h1 {
+	color: $color-black;
+	font-family: $font-lato;
+	font-size: rem(45);
+	font-weight: 900;
+	margin: rem(0 0 10 0);
+} // h1, .h1
+
+h2,
+.h2 {
+	color: $color-black;
+	font-family: $font-lato;
+	font-size: rem(32);
+	font-weight: 700;
+	margin: rem(0 0 10 0);
+	text-transform: uppercase;
+} // h2, .h2
+
+h3,
+.h3 {
+	color: $color-black;
+	font-family: $font-halant;
+	font-size: rem(26);
+	font-weight: 600;
+	margin: rem(0 0 10 0);
+} // h3, .h3
+
+h4,
+.h4 {
+	font-family: $font-lato;
+	font-size: rem(22);
+	font-weight: 400;
+	margin: rem(0 0 10 0);
+} // h4, .h4
+
+h5,
+.h5 {
+	font-family: $font-halant;
+	font-size: rem(18);
+	font-weight: 600;
+	margin: rem(0 0 10 0);
+} // h5, .h5
+
+h6,
+.h6 {
+	font-family: $font-halant;
+	font-size: rem(16);
+	font-weight: 600;
+	margin: rem(0 0 10 0);
+} // h6, .h6
+
+
+//-----------------------------------------
+// Links
+//-----------------------------------------
+a {
+	color: $color-hippie-blue;
+} // a
+
+a:hover {
+	color: $color-chestnut-rose;
+} // a:hover
+
+a:focus {
+	outline: 1px solid rgba($color-black, 0.4);
+} // a:focus

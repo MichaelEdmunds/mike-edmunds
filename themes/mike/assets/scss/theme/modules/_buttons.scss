@@ -1,0 +1,26 @@
+//--------------------------------------------------------------
+// BUTTONS
+//--------------------------------------------------------------
+
+.button {
+	appearance: none;
+	background: $color-black;
+	border: 0;
+	color: $color-white;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: rem(16);
+	line-height: 1.5;
+	margin: 0;
+	padding: rem(10 15);
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		background: $color-white;
+		color: $color-black;
+	} // &:hover, &:focus
+} // .button
