@@ -29,7 +29,7 @@ module.exports = function (grunt) {
 				},
 				options: {
 					watchTask: true,
-					proxy: 'custom.dev'
+					proxy: 'mike-edmunds.dev'
 				},
 			}
 		},
